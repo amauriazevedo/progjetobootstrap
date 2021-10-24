@@ -10,7 +10,7 @@ h1 {
   background-color: #00f48e00;
 }
 .drop-shadow {
-  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.281); /*sombreamento do título*/
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.048); /*sombreamento do título*/
 }
 .lead {
   color: white;
@@ -18,13 +18,40 @@ h1 {
 }
 
 .btn-outline-light {
-  border-color: white;
+  border-color: rgb(255, 254, 254);
 }
 
 .btn-outline-light:hover {
-  background-color: rgba(255, 255, 255, 0.425);
+  background-color: rgba(255, 255, 255, 0.068);
+  transition-duration: 2s; /*duração do efeito da mudança de cor*/
+}
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.11);
+}
+.dropdown-item {
+  background-color: rgba(255, 255, 255, 0.068);
+  color: rgb(255, 255, 255);
+}
+.controle-carousel {
+  display: flex;
 }
 
 .card1 {
   display: flex;
+}
+.btn-outline-success {
+  background-color: #00f490;
+}
+.row {
+  margin-top: 30px;
+}
+
+.rounded-circle {
+  margin-left: 30%;
+}
+.text-row {
+  text-align: center;
+}
+.containerfooter {
+  padding-top: 20px;
 }
